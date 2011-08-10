@@ -214,6 +214,15 @@ td { vertical-align: top; }
 
 
 
+#container {
+  text-align : center;
+}
+
+#main {
+  margin : 0 auto;
+  min-width : 840px;
+}
+
 
 
 
