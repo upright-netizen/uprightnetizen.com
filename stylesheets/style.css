@@ -276,8 +276,13 @@ body {
   color : #000;
 }
 
+.ie6 .cool-kids {
+	display : block;
+}
+
 .ie6 .special-kids {
   display : block;
+	margin-top : 4.5em;
 }
 
 
