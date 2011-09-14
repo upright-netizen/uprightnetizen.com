@@ -1,0 +1,153 @@
+/*
+         ______     ______   __     __   __       __     ______  
+        /\  ___\   /\  == \ /\ \   /\ "-.\ \     /\ \   /\  ___\ 
+        \ \___  \  \ \  _-/ \ \ \  \ \ \-.  \   _\_\ \  \ \___  \
+         \/\_____\  \ \_\    \ \_\  \ \_\\"\_\ /\_____\  \/\_____\
+          \/_____/   \/_/     \/_/   \/_/ \/_/ \/_____/   \/_____/
+
+         ______     ______   __  __     __         ______  
+        /\  ___\   /\__  _\ /\ \_\ \   /\ \       /\  ___\
+        \ \___  \  \/_/\ \/ \ \____ \  \ \ \____  \ \  __\
+         \/\_____\    \ \_\  \/\_____\  \ \_____\  \ \_____\
+          \/_____/     \/_/   \/_____/   \/_____/   \/_____/
+*/
+
+html, body {
+    font-family : sans-serif;
+}
+
+h1 {
+    font-size : 5em;
+    text-align : center;
+    margin : .5em auto 0;
+    padding : 0;
+}
+
+h2 {
+    font-size : 2.5em;
+    text-align : center;
+    margin : 0 auto .5em;
+    padding-bottom : .5em;
+}
+
+.main {
+  text-align : center;
+}
+
+.clickit {
+  cursor : pointer;
+  font-size : 8em;
+  font-weight : bold;
+  margin : 0 auto;
+  padding : 0 75px;
+  border : 0;
+
+  -webkit-border-radius : 25px;
+  -moz-border-radius : 25px;
+  border-radius : 25px; 
+
+  background-color : #2ba01f;
+  background-color : #2ba01f;
+  background-image : -webkit-gradient(linear, left top, left bottom, from(#2ba01f), to (#207817));
+  background-image : -webkit-linear-gradient(top, #2ba01f, #207817); /* Chrome 10+, Safari 5.1+ */
+  background-image : -moz-linear-graditent(top, #2ba01f, #207817); /* FF3.6 */
+  background-image : -ms-linear-graditent(top, #2ba01f, #207817); /* IE10 */
+  background-image : -o-linear-graditent(top, #2ba01f, #207817); /* Opera 11.10+ */
+  background-image : linear-graditent(top, #2ba01f, #207817);
+  filter : progid:DXImageTransform.Microsoft.gradient(startColorStr='#{1}', EndColorStr='#207817'); /* IE6-IE9 */
+}
+
+.disabled {
+  color : #777;
+
+  background-color : #ccc;
+  background-color : #ccc;
+  background-image : -webkit-gradient(linear, left top, left bottom, from(#ccc), to (#999));
+  background-image : -webkit-linear-gradient(top, #ccc, #999); /* Chrome 10+, Safari 5.1+ */
+  background-image : -moz-linear-graditent(top, #ccc, #999); /* FF3.6 */
+  background-image : -ms-linear-graditent(top, #ccc, #999); /* IE10 */
+  background-image : -o-linear-graditent(top, #ccc, #999); /* Opera 11.10+ */
+  background-image : linear-graditent(top, #ccc, #999);
+  filter : progid:DXImageTransform.Microsoft.gradient(startColorStr='#{1}', EndColorStr='#999'); /* IE6-IE9 */
+}
+
+.spin-container {
+    height : 200px;
+    width : 200px;
+    border : 1px solid #444;
+    -webkit-border-radius : 25px;
+    -moz-border-radius : 25px;
+    border-radius : 25px;
+}
+/*
+           _____     ______     __  __     ______     __         ______
+          /\  __-.  /\  __ \   /\ \/\ \   /\  == \   /\ \       /\  ___\
+          \ \ \/\ \ \ \ \/\ \  \ \ \_\ \  \ \  __<   \ \ \____  \ \  __\
+           \ \____-  \ \_____\  \ \_____\  \ \_____\  \ \_____\  \ \_____\
+            \/____/   \/_____/   \/_____/   \/_____/   \/_____/   \/_____/
+
+           ______     ______     __     __   __     ______     ______     __     __  
+          /\  == \   /\  __ \   /\ \   /\ "-.\ \   /\  == \   /\  __ \   /\ \  _ \ \ 
+          \ \  __<   \ \  __ \  \ \ \  \ \ \-.  \  \ \  __<   \ \ \/\ \  \ \ \/ ".\ \
+           \ \_\ \_\  \ \_\ \_\  \ \_\  \ \_\\"\_\  \ \_____\  \ \_____\  \ \__/".~\_\
+            \/_/ /_/   \/_/\/_/   \/_/   \/_/ \/_/   \/_____/   \/_____/   \/_/   \/_/
+*/
+
+.rainbow {
+  height : 35px;
+  width : 100%;
+  border : none;
+}
+
+/*
+ * CSS animated rainbow dividers of awesome 
+ * by Chris Heilmann @codepo8 and Lea Verou @leaverou 
+**/
+@-moz-keyframes charlieeee {
+  from { background-position:top left; } 
+  to {background-position:top right; }
+}
+@-webkit-keyframes charlieeee { 
+  from { background-position:top left; }  
+  to { background-position:top right; }  
+}
+@-o-keyframes charlieeee { 
+  from { background-position:top left; }  
+  to { background-position:top right; }  
+}
+@-ms-keyframes charlieeee { 
+  from { background-position:top left; }  
+  to { background-position:top right; }  
+}
+@-khtml-keyframes charlieeee { 
+  from { background-position:top left; }  
+  to { background-position:top right; }  
+}
+@keyframes charlieeee { 
+  from { background-position:top left; }  
+  to { background-position:top right; }  
+}
+.catchadream{
+  background-image:-webkit-linear-gradient( left, red, orange, yellow, green,
+                                          blue, indigo, violet, indigo, blue,
+                                          green, yellow, orange, red );
+  background-image:-moz-linear-gradient( left, red, orange, yellow, green,
+                                         blue,indigo, violet, indigo, blue,
+                                         green, yellow, orange,red );
+  background-image:-o-linear-gradient( left, red, orange, yellow, green,
+                                         blue,indigo, violet, indigo, blue,
+                                         green, yellow, orange,red );
+  background-image:-ms-linear-gradient( left, red, orange, yellow, green,
+                                         blue,indigo, violet, indigo, blue,
+                                         green, yellow, orange,red );
+  background-image:-khtml-linear-gradient( left, red, orange, yellow, green,
+                                         blue,indigo, violet, indigo, blue,
+                                         green, yellow, orange,red );
+  background-image:linear-gradient( left, red, orange, yellow, green,
+                                         blue,indigo, violet, indigo, blue,
+                                         green, yellow, orange,red );
+  
+  -webkit-animation:charlieeee 1s forwards linear infinite;
+  
+  background-size:50% auto;
+}

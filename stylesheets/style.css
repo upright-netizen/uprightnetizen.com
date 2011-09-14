@@ -213,6 +213,10 @@ td { vertical-align: top; }
    ========================================================================== */
 
 
+body {
+  background-color : #444;
+  color : #000;
+}
 
 #container {
   text-align : center;
@@ -220,11 +224,61 @@ td { vertical-align: top; }
 
 #main {
   margin : 0 auto;
-  min-width : 840px;
 }
 
+.special-kids {
+  display : none;
+}
+/*
+ *    A little flare
+ */
+.cool-kids {
+  font-family : 'Arial Black', sans-serif;
+  font-size : 9em;
+  font-weight : bold;
+  margin-top : .5em;
+  text-align : center;
 
+  text-shadow : -1px 1px black, -2px 2px #222, -3px 3px #222, -4px 4px #222, -5px 5px #222, -6px 6px #222, -7px 7px #222, -8px 8px #222;
+}
 
+.upright {
+  color : #ff0080;
+
+  -webkit-transition: all 0.12s ease-out;
+     -moz-transition: all 0.12s ease-out;
+       -o-transition: all 0.12s ease-out;
+          transition: all 0.12s ease-out;
+}
+
+.upright:hover {
+  text-shadow : -1px 1px black, -2px 2px purple, -3px 3px purple, -4px 4px purple, -5px 5px magenta, -6px 6px magenta, -7px 7px magenta, -8px 8px magenta, -9px 9px blue, -10px 10px blue, -11px 11px blue, -12px 12px blue, -13px 13px green, -14px 14px green, -15px 15px green, -16px 16px green, -17px 17px green, -18px 18px yellow, -19px 19px yellow, -20px 20px yellow, -21px 21px yellow, -22px 22px yellow, -23px 23px orange, -24px 24px orange, -25px 25px orange, -26px 26px orange, -27px 27px orange, -28px 28px orange, -29px 29px red, -30px 30px red, -31px 31px red, -32px 32px red, -33px 33px red, -34px 34px red;
+}
+
+.netizen {
+  color : #0080ff;
+
+  -webkit-transition: all 0.12s ease-out;
+     -moz-transition: all 0.12s ease-out;
+       -o-transition: all 0.12s ease-out;
+          transition: all 0.12s ease-out;
+}
+
+.netizen:hover {
+  text-shadow : -1px 1px black, -2px 2px purple, -3px 3px purple, -4px 4px purple, -5px 5px magenta, -6px 6px magenta, -7px 7px magenta, -8px 8px magenta, -9px 9px blue, -10px 10px blue, -11px 11px blue, -12px 12px blue, -13px 13px green, -14px 14px green, -15px 15px green, -16px 16px green, -17px 17px green, -18px 18px yellow, -19px 19px yellow, -20px 20px yellow, -21px 21px yellow, -22px 22px yellow, -23px 23px orange, -24px 24px orange, -25px 25px orange, -26px 26px orange, -27px 27px orange, -28px 28px orange, -29px 29px red, -30px 30px red, -31px 31px red, -32px 32px red, -33px 33px red, -34px 34px red;
+}
+
+/*
+ *    For the special kids
+ */
+.ie6 body {
+  background-color : #fff;
+  color : #000;
+}
+
+.ie6 .special-kids {
+  display : block;
+}
 
 
 
