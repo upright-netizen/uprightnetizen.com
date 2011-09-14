@@ -277,7 +277,7 @@ body {
 }
 
 .ie6 .cool-kids {
-	display : block;
+  display : none;
 }
 
 .ie6 .special-kids {
