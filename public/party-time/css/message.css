@@ -1,0 +1,14 @@
+.message {
+	position: absolute;
+	top: 8%;
+	text-align: center;
+	width: 100%;
+	font-family: sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 400%;
+	letter-spacing: 0.0625em;
+	color: #fff;
+	text-shadow: 0.025em 0.025em #000, 0.05em 0.05em #000, 0.075em 0.075em #000, 0.1em 0.1em #000;
+	z-index: -20;
+}
