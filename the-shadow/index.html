@@ -12,7 +12,7 @@
        More info: h5bp.com/b/378 -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-  <title>Upright Netizen - Txt Shadow Biatches!!!</title>
+  <title>Upright Netizen - The Shadow Knows!</title>
   <meta name="description" content="make HAUTE text shadows">
   <meta name="author" content="Nathan and Jared">
   <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -22,77 +22,82 @@
 </head>
 
 <body>
-<div id="home">
-      <div id="viewpane">
-        <div id="preview">Bunches of jumping hoaxes frolic all about.</div>
-      </div>
-      <div id="resize"></div>
-      <div id="controlpane">
-        <form action="#" method="post">
-          <div class="shadow section">
-            <h1>Text Shadow</h1>
-            <div class="depth section">
-              <label for="depth">Depth</label>
-              <input id="depth" type="range" name="depth" min="1" max="50" value="10">
-            </div>
+  <article id="home">
+
+  	<section id="preview">Upright Netizen</section>
+
+  	<section id="controls">
+    	<section id="shadow_options">
+        <form action="#">
+          <h1>Shadow</h1>
+
+          <div class="shadow depth control">
+            <label for="depth">Depth</label>
+            <input id="depth" type="range" name="depth" min="1" max="50" value="10">
+          </div>
           
-            <div class="color section">
-              <label for="color">Color</label>
-              <input id="color" type="color" name="color" value="#333">
-            </div>
-          
-            <div class="corner section">
-              <label for="corner">Top Left</label>
-              <input type="radio" name="corner[topleft]">
-            
-              <label for="corner">Top Right</label>
-              <input type="radio" name="corner[topright]">
-            
-              <label for="corner">Bottom Left</label>
-              <input type="radio" name="corner[bottomleft]">
-            
-              <label for="corner">Bottom Right</label>
-              <input type="radio" name="corner[bottomright]">
-            </div>
+          <div class="shadow color control">
+            <label for="color">Color</label>
+            <input id="color" type="color" name="color" value="#333">
           </div>
 
-          <div class="font section">
-            <h1>Font</h1>
-
-            <div class="font family section">
-              <label for="fontfamily">Family</label>
-              <select name="fontfamily">
-                <option value="sans-serif" checked>Sans-serif</option>
-                <option value="serif">Serif</option>
-                <option value="monospace">Monospace</option>
-              </select>
-            </div>
-          
-            <div class="font size section">
-              <label for="fontsize">Size</label>
-              <input type="range" min="8" max="92" value="24">
-            </div>
+          <div class="shadow corner control">
+            <input id="topleft_corner" type="radio" name="corner">
+            <label for="topleft_corner">Top Left</label>
             
-            <div class="font text section">
-              <label for="fonttext">Sample Text</label>
-              <input type="text" value="Upright Netizen">
-            </div>
+            <input id="topright_corner" type="radio" name="corner">
+            <label for="topright_corner">Top Right</label>
+            
+            <input id="bottomleft_corner" type="radio" name="corner" checked>
+            <label for="bottomleft_corner">Bottom Left</label>
+          
+            <input id="bottomright_corner" type="radio" name="corner">
+            <label for="bottomright_corner">Bottom Right</label>
           </div>
         </form>
-      </div>
-    </div>
+      </section>
+
+      <section id="preview_options">
+        <form action="#">
+          <h1>Preview</h1>
+          
+          <div class="font size control">
+            <label for="fontsize">Size</label>
+            <input id="font_size" type="range" min="8" max="92" value="24">
+          </div>
+
+          <div class="font text control">
+            <label for="fonttext">Sample Text</label>
+            <input id="font_text" type="text" value="Upright Netizen">
+          </div>
+
+          <div class="font family control">
+            <label for="fontfamily">Family</label>
+            <select id="font_family" name="fontfamily">
+              <option value="sans-serif" checked>Sans-serif</option>
+              <option value="serif">Serif</option>
+              <option value="monospace">Monospace</option>
+            </select>
+          </div>
+        </form>  
+      </section>
+      <div class="clearfix"></div>
+    </section>
+    
 
     <section id="delivery">
       <pre><code id="output">
 
-  text-shadow : -1px 1px #400;
+    text-shadow : -1px 1px #400;
 
       </code></pre>
       <button type="button">Get it</button>
     </section><!-- /output --> 
-    <div id="about"></div>
-    <div id="resources"></div>
+  </article><!-- /home -->
 
+  <article id="about"></article><!-- /about -->
+
+  <article id="resources"></article><!-- /resources -->
 
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
   <script>window.jQuery || document.write('<script src="/javascripts/libs/jquery-1.7.1.js"><\/script>')</script>
