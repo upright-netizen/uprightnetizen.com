@@ -212,6 +212,27 @@ td { vertical-align: top; }
    Author: Jared Stilwell
    ========================================================================== */
 
+
+
+
+/*
+    ooooo      ooo              ooooo oooooooooo.            
+    `888b.     `8'              `888' `888'   `Y8b           
+     8 `88b.    8   .ooooo.      888   888      888  .oooo.o 
+     8   `88b.  8  d88' `88b     888   888      888 d88(  "8 
+     8     `88b.8  888   888     888   888      888 `"Y88b.  
+     8       `888  888   888     888   888     d88' o.  )88b 
+    o8o        `8  `Y8bod8P'    o888o o888bood8P'   8""888P' 
+
+     o8o                   .oooooo.    .oooooo..o  .oooooo..o 
+     `"'                  d8P'  `Y8b  d8P'    `Y8 d8P'    `Y8 
+    oooo  ooo. .oo.      888          Y88bo.      Y88bo.      
+    `888  `888P"Y88b     888           `"Y8888o.   `"Y8888o.  
+     888   888   888     888               `"Y88b      `"Y88b 
+     888   888   888     `88b    ooo  oo     .d8P oo     .d8P 
+    o888o o888o o888o     `Y8bood8P'  8""88888P'  8""88888P'  
+*/
+
 h1 { font-size: 150% }
 input { width: 80%; font-size: 140% }
 .control { padding: .5em 0 1em 0 }
@@ -225,7 +246,7 @@ label {
   letter-spacing: 2px;
 }
 
-#preview {
+.preview {
   background-color: #fff;
   margin: 0 auto;
   padding: .5em 0 .5em 0;
@@ -251,7 +272,7 @@ label {
   box-shadow: 0px 5px 5px rgba(225, 225, 225, 0.8);
 }
 
-#controls {
+.controls {
   color: #444;
   font-family: Helvetica, Arial, sans-serif;
   font-variant: condensed;
@@ -263,31 +284,25 @@ label {
   background-repeat: repeat-x repeat-y;
 }
 
-#controls h1 {
+.controls .title {
   font-family: Futura;
   text-transform: uppercase;
   letter-spacing: .2em;  
 }
 
-#controls label {
+.corner-label {
   text-shadow: 0px 1px 1px #fff;
 }
 
-#shadow_options {
-  float: left;
-  width: 50%;
-  padding: 0;
-}
-
-#preview_options { 
+.options {
   float: left;
   width: 50%;
   padding: 0;
 }
 
 .shadow.depth, .font.size { width: 66.66666666666667% }
-.shadow.color > input { max-width: 9em }
-.shadow.corner > input[name='corner'] { display: none }
+.control .color { max-width: 9em }
+.corner { display: none }
 
 input:checked + label{
   position: relative;
@@ -297,7 +312,16 @@ input:checked + label{
   text-shadow: -1px 1px #333 !important;
 }
 
-.font.text > input { max-width: 15em }
+.font-text { max-width: 15em }
+
+
+
+
+
+
+
+
+
 
 
 /* ==|== non-semantic helper classes ========================================

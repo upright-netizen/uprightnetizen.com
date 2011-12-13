@@ -24,56 +24,56 @@
 <body>
   <article id="home">
 
-  	<section id="preview">Upright Netizen</section>
+  	<section id="preview" class="preview">Upright Netizen</section>
 
-  	<section id="controls">
-    	<section id="shadow_options">
+  	<section id="controls" class="controls">
+    	<section id="shadow_options" class="options">
         <form action="#">
-          <h1>Shadow</h1>
+          <h1 class="title">Shadow</h1>
 
-          <div class="shadow depth control">
-            <label for="depth">Depth</label>
-            <input id="depth" type="range" name="depth" min="1" max="50" value="10">
+          <div class="control">
+            <label for="depth" class="property">Depth</label>
+            <input id="depth" class="depth slider" type="range" name="depth" min="1" max="50" value="10">
           </div>
           
-          <div class="shadow color control">
-            <label for="color">Color</label>
-            <input id="color" type="color" name="color" value="#333">
+          <div class="control">
+            <label for="color" class="property">Color</label>
+            <input id="color" class="color" type="color" name="color" value="#333">
           </div>
 
-          <div class="shadow corner control">
-            <input id="topleft_corner" type="radio" name="corner">
-            <label for="topleft_corner">Top Left</label>
+          <div class="control">
+            <input id="topleft_corner" class="corner" type="radio" name="corner" value="northwest">
+            <label for="topleft_corner" class="corner-label">NorthWest</label>
             
-            <input id="topright_corner" type="radio" name="corner">
-            <label for="topright_corner">Top Right</label>
+            <input id="topright_corner" class="corner" type="radio" name="corner" value="northeast">
+            <label for="topright_corner" class="corner-label">NorthEast</label>
             
-            <input id="bottomleft_corner" type="radio" name="corner" checked>
-            <label for="bottomleft_corner">Bottom Left</label>
+            <input id="bottomleft_corner" class="corner" type="radio" name="corner" value="southwest" checked>
+            <label for="bottomleft_corner" class="corner-label">SouthWest</label>
           
-            <input id="bottomright_corner" type="radio" name="corner">
-            <label for="bottomright_corner">Bottom Right</label>
+            <input id="bottomright_corner" class="corner" type="radio" name="corner" value="southeast">
+            <label for="bottomright_corner" class="corner-label">SouthEast</label>
           </div>
         </form>
       </section>
 
-      <section id="preview_options">
+      <section id="preview_options" class="options">
         <form action="#">
           <h1>Preview</h1>
           
           <div class="font size control">
             <label for="fontsize">Size</label>
-            <input id="font_size" type="range" min="8" max="92" value="24">
+            <input id="font-size" class="font-size slider" type="range" min="16" max="300" value="24">
           </div>
 
-          <div class="font text control">
+          <div class="control">
             <label for="fonttext">Sample Text</label>
-            <input id="font_text" type="text" value="Upright Netizen">
+            <input id="font-text" class="font-text" type="text" value="Upright Netizen">
           </div>
 
           <div class="font family control">
             <label for="fontfamily">Family</label>
-            <select id="font_family" name="fontfamily">
+            <select id="font-family" name="fontfamily">
               <option value="sans-serif" checked>Sans-serif</option>
               <option value="serif">Serif</option>
               <option value="monospace">Monospace</option>
