@@ -30,7 +30,7 @@
 
           <div class="control">
             <label for="depth" class="property">Depth</label>
-            <input id="depth" class="depth slider" type="range" name="depth" min="1" max="50" value="10">
+            <input id="depth" class="depth slider" type="number" name="depth" min="1" max="50" value="10">
           </div>
           
           <div class="control">
@@ -39,7 +39,15 @@
           </div>
 
           <div class="control">
-            <input id="topleft_corner" class="corner" type="radio" name="corner" value="northwest">
+            <label for="direction">Direction</label>
+            <select id="direction" class="direction" name="direction">
+              <option value="northwest">NorthWest</option>
+              <option value="northeast">NorthEast</option>
+              <option value="southwest" selected>SouthWest</option>
+              <option value="southeast">SouthEast</option>
+            </select>
+
+            <!-- <input id="topleft_corner" class="corner" type="radio" name="corner" value="northwest">
             <label for="topleft_corner" class="corner-label">NorthWest</label>
             
             <input id="topright_corner" class="corner" type="radio" name="corner" value="northeast">
@@ -49,7 +57,7 @@
             <label for="bottomleft_corner" class="corner-label">SouthWest</label>
           
             <input id="bottomright_corner" class="corner" type="radio" name="corner" value="southeast">
-            <label for="bottomright_corner" class="corner-label">SouthEast</label>
+            <label for="bottomright_corner" class="corner-label">SouthEast</label> -->
           </div>
         </form>
       </section>
@@ -60,7 +68,7 @@
           
           <div class="font size control">
             <label for="fontsize">Size</label>
-            <input id="font-size" class="font-size slider" type="range" min="16" max="300" value="24">
+            <input id="font-size" class="font-size slider" type="number" min="16" max="300" value="54">
           </div>
 
           <div class="control">
@@ -71,9 +79,11 @@
           <div class="font family control">
             <label for="fontfamily">Family</label>
             <select id="font-family" name="fontfamily">
-              <option value="sans-serif" checked>Sans-serif</option>
-              <option value="serif">Serif</option>
-              <option value="monospace">Monospace</option>
+              <option value="futura" checked>Futura</option>
+              <option value="helvetica">Helvetica</option>
+              <option value="verdana">Verdana</option>
+              <option value="Georgia">Georgia</option>
+              <option value="Courier">Courier</option>
             </select>
           </div>
         </form>  
@@ -85,9 +95,7 @@
 
     <section id="delivery" class="delivery">
       <pre><code id="output">
-
-    text-shadow : -1px 1px #400;
-
+        -1px 1px #333, -2px 2px #333, -3px 3px #333, -4px 4px #333, -5px 5px #333, -6px 6px #333, -7px 7px #333, -8px 8px #333, -9px 9px #333, -10px 10px #333
       </code></pre>
       <!-- <button type="button">Get it</button> -->
     </section><!-- /output --> 

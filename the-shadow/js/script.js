@@ -34,7 +34,7 @@
         // elements
         depth_elem = $('#depth'),
         color_elem = $('#color'),
-        direction_elem = $('input[name=corner]'),
+        direction_elem = $('#direction'),
         fontFamily_elem = $('#font-family'),
         fontSize_elem = $('#font-size'),
         sampleText_elem = $('#font-text'),
@@ -52,8 +52,10 @@
       // Get initial values
       depth = depth_elem.val();
       color = color_elem.val();
-      x = direction[ direction_elem.filter(':checked').val() ].x;
-      y = direction[ direction_elem.filter(':checked').val() ].y;
+      // x = direction[ direction_elem.filter(':checked').val() ].x;
+      // y = direction[ direction_elem.filter(':checked').val() ].y;
+      x = direction[ direction_elem.val() ].x;
+      y = direction[ direction_elem.val() ].y;
       fontFamily = fontFamily_elem.val();
 
       /* events */
@@ -67,7 +69,14 @@
         renderProperty();
       });
 
-      direction_elem.bind("click", function (e) {
+      // direction_elem.bind("click", function (e) {
+      //   var corner = direction[$(this).val()];
+      //   x = corner.x;
+      //   y = corner.y;
+      //   renderProperty();
+      // });
+
+      direction_elem.bind("change", function (e) {
         var corner = direction[$(this).val()];
         x = corner.x;
         y = corner.y;
@@ -157,15 +166,4 @@
   global.URN = URN;
 
 })(this, this.document, this.jQuery);
-
-
-
-
-
-
-
-
-
-
-
 

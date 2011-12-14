@@ -233,17 +233,33 @@ td { vertical-align: top; }
     o888o o888o o888o     `Y8bood8P'  8""88888P'  8""88888P'  
 */
 
-h1 { font-size: 150% }
-input { width: 80%; font-size: 140% }
+h1 {
+  font-size: 150%;
+  text-shadow: -2px 2px #fff;
+}
+
+input {
+  padding: .1em .1em .1em .1em;
+  font-family: Futura;
+  font-size: 18px;
+}
+
+input[type='number'] {
+  width: 4em;
+  text-align: center;
+}
+
+input[type='text'], input[type='color'] {
+  width: 90%;
+}
+
 .control { padding: .5em 0 1em 0 }
 
 label { 
+  font-size: 16px;
   display: block;
   padding-bottom: .5em; 
-  text-transform: uppercase; 
-  font-size: .85em; 
-  font-weight: bolder;
-  letter-spacing: 2px;
+  font-style: italic;
 }
 
 .preview {
@@ -252,6 +268,7 @@ label {
   padding: .5em 0 .5em 0;
   font-family: Futura;
   line-height: 1.4;
+  letter-spacing: .2em;
   font-size: 54px;
   text-align: center;
 
@@ -270,23 +287,19 @@ label {
 
 .controls {
   color: #444;
-  font-family: Helvetica, Arial, sans-serif;
-  font-variant: condensed;
+  font-family: Times;
   font-weight: normal;
   letter-spacing: 1px;
   margin: 0 auto;
   padding: 0px 8.3333333333333% 4em 8.3333333333333%;
-  background: #eee;
+  background: #eee url('../images/stripe.png');
+  background-repeat: repeat-x repeat-y;
 }
 
 .controls .title {
   font-family: Futura;
   text-transform: uppercase;
   letter-spacing: .2em;  
-}
-
-.corner-label {
-  text-shadow: 0px 1px 1px #fff;
 }
 
 .options {
@@ -296,33 +309,28 @@ label {
 }
 
 .shadow.depth, .font.size { width: 66.66666666666667% }
-.control .color { max-width: 9em }
-.corner { display: none }
-
-input:checked + label{
-  position: relative;
-  top: -1px;
-  left: 1px;
-  color: #fff;
-  text-shadow: -1px 1px #333 !important;
-}
-
 .font-text { max-width: 15em }
 
 @media screen and (min-width: 720px) {
   .controls {
-    position: absolute;
+    position: fixed;
     right: 0;
     top: 0;
-    width: 300px;
+    width: 200px;
     padding: 2em 0 2em 2em;
+
+    -webkit-border-bottom-left-radius: 20px;
+    -moz-border-radius-bottomleft: 20px;
+    border-bottom-left-radius: 20px;
+
   }
 
   .options {
     float: none;
+    width: 100%;
   }
 
-  .preview, .delivery { margin-right: 300px }
+  .preview, .delivery { margin-right: 200px }
 }
 
 /* ==|== non-semantic helper classes ========================================
