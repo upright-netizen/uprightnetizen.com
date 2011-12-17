@@ -311,7 +311,7 @@ td { vertical-align: top; }
 */
 
 .delivery {
-  position: absolute;
+  position: fixed;
   width: 75%;
   bottom: 20px;
   left: 20px;
