@@ -39,6 +39,7 @@
         fontSize_elem = $('#font-size'),
         sampleText_elem = $('#font-text'),
 
+
         // functions
         init,
         renderProperty,
@@ -136,7 +137,7 @@
     };
 
     updateCode = function updateCode () {
-      $("#output").text(textShadow);
+      $("#output").val("text-shadow : " + textShadow);
     };
 
     debug = function debug () {

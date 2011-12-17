@@ -32,7 +32,7 @@
             <label for="depth" class="property">Depth</label>
             <input id="depth" class="depth slider" type="number" name="depth" min="1" max="50" value="10">
           </div>
-          
+
           <div class="control">
             <label for="color" class="property">Color</label>
             <input id="color" class="color" type="color" name="color" value="#333">
@@ -49,13 +49,10 @@
 
             <!-- <input id="topleft_corner" class="corner" type="radio" name="corner" value="northwest">
             <label for="topleft_corner" class="corner-label">NorthWest</label>
-            
             <input id="topright_corner" class="corner" type="radio" name="corner" value="northeast">
             <label for="topright_corner" class="corner-label">NorthEast</label>
-            
             <input id="bottomleft_corner" class="corner" type="radio" name="corner" value="southwest" checked>
             <label for="bottomleft_corner" class="corner-label">SouthWest</label>
-          
             <input id="bottomright_corner" class="corner" type="radio" name="corner" value="southeast">
             <label for="bottomright_corner" class="corner-label">SouthEast</label> -->
           </div>
@@ -65,7 +62,7 @@
       <section id="preview_options" class="options">
         <form action="#">
           <h1 class="title">Preview</h1>
-          
+
           <div class="font size control">
             <label for="fontsize">Size</label>
             <input id="font-size" class="font-size slider" type="number" min="16" max="300" value="54">
@@ -86,19 +83,22 @@
               <option value="Courier">Courier</option>
             </select>
           </div>
-        </form>  
+        </form>
       </section>
       <div class="clearfix"></div>
     </section>
-    
+
     <section id="preview" class="preview">Upright Netizen</section>
 
     <section id="delivery" class="delivery">
-      <pre><code id="output">
+      <!-- <pre><code id="output">
         -1px 1px #333, -2px 2px #333, -3px 3px #333, -4px 4px #333, -5px 5px #333, -6px 6px #333, -7px 7px #333, -8px 8px #333, -9px 9px #333, -10px 10px #333
-      </code></pre>
+      </code></pre> -->
+
+      <textarea id="output" class="code-preview">text-shadow : -1px 1px #333, -2px 2px #333, -3px 3px #333, -4px 4px #333, -5px 5px #333, -6px 6px #333, -7px 7px #333, -8px 8px #333, -9px 9px #333, -10px 10px #333;</textarea>
+
       <!-- <button type="button">Get it</button> -->
-    </section><!-- /output --> 
+    </section><!-- /output -->
   </article><!-- /home -->
 
   <article id="about"></article><!-- /about -->
