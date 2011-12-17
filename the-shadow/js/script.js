@@ -9,11 +9,11 @@
   if (!URN) {
     URN = {};
   }
-    
+
   URN.theShadowing = (function(options) {
-    
+
   /* define */
-  
+
         // properties
     var depth,
         color,
@@ -30,7 +30,7 @@
         fontSize,
         sampleText,
         eventSwitch = $(doc),
-        
+
         // elements
         depth_elem = $('#depth'),
         color_elem = $('#color'),
@@ -60,7 +60,8 @@
       fontFamily = fontFamily_elem.val();
 
       /* events */
-      depth_elem.bind("change", function (e) {
+      depth_elem.on("change", function (e) {
+         console.log('change');
          depth = depth_elem.val();
          renderProperty();
       });
@@ -89,7 +90,7 @@
         eventSwitch.trigger("updatePreview.text-shadow");
       });
 
-      fontSize_elem.bind("change", function (e) {
+      fontSize_elem.on("change", function (e) {
         fontSize = fontSize_elem.val();
         eventSwitch.trigger("updatePreview.text-shadow");
       });
@@ -111,7 +112,7 @@
       x = -1;
       y = 1;
     };
-      
+
     renderProperty = function renderProperty () {
       // reset text shadow
       textShadow = "";

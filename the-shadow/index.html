@@ -23,24 +23,24 @@
 
 <body>
   <article id="home">
-  	<section id="controls" class="controls">
-    	<section id="shadow_options" class="options">
+    <section id="controls" class="control-panel">
+      <section id="shadow_options" class="options">
         <form action="#">
           <h1 class="title">Shadow</h1>
 
           <div class="control">
-            <label for="depth" class="property">Depth</label>
-            <input id="depth" class="depth slider" type="number" name="depth" min="1" max="50" value="10">
+            <label for="depth" class="label">Depth</label>
+            <input id="depth" class="depth reading slider" type="range" name="depth" min="1" max="50" value="10">
           </div>
 
           <div class="control">
-            <label for="color" class="property">Color</label>
-            <input id="color" class="color" type="color" name="color" value="#333">
+            <label for="color" class="label">Color</label>
+            <input id="color" class="color reading" type="color" name="color" value="#333">
           </div>
 
           <div class="control">
-            <label for="direction">Direction</label>
-            <select id="direction" class="direction" name="direction">
+            <label for="direction" class="label">Direction</label>
+            <select id="direction" class="direction reading" name="direction">
               <option value="northwest">NorthWest</option>
               <option value="northeast">NorthEast</option>
               <option value="southwest" selected>SouthWest</option>
@@ -63,18 +63,18 @@
         <form action="#">
           <h1 class="title">Preview</h1>
 
-          <div class="font size control">
-            <label for="fontsize">Size</label>
-            <input id="font-size" class="font-size slider" type="number" min="16" max="300" value="54">
+          <div class="font-size control">
+            <label for="fontsize" class="label">Size</label>
+            <input id="font-size" class="font-size reading slider" type="range" min="16" max="300" value="54">
           </div>
 
-          <div class="control">
-            <label for="fonttext">Sample Text</label>
-            <input id="font-text" class="font-text" type="text" value="Upright Netizen">
+          <div class="font-text control">
+            <label for="fonttext" class="label">Sample Text</label>
+            <input id="font-text" class="font-text reading" type="text" value="Upright Netizen">
           </div>
 
-          <div class="font family control">
-            <label for="fontfamily">Family</label>
+          <div class="font-family control">
+            <label for="fontfamily" class="label">Family</label>
             <select id="font-family" name="fontfamily">
               <option value="futura" checked>Futura</option>
               <option value="helvetica">Helvetica</option>
@@ -101,10 +101,31 @@
     </section><!-- /output -->
   </article><!-- /home -->
 
+
+<!--
+
+
+
+
+
+
+
+
+
+            Later.
+
+
+
+
+
+
+
+
+ -->
+
+
   <article id="about"></article><!-- /about -->
-
   <article id="resources"></article><!-- /resources -->
-
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
   <script>window.jQuery || document.write('<script src="/javascripts/libs/jquery-1.7.1.js"><\/script>')</script>
 
