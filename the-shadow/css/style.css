@@ -249,9 +249,8 @@ td { vertical-align: top; }
   font-size : 20px;
   text-transform: uppercase;
   letter-spacing: .2em;
-  margin : .5em 0 .25em;
-  padding : 0;
-  text-align : right;
+  margin: .5em 0 .25em;
+  padding: 1em 0 0 .5em;
   text-shadow: -2px 2px #fff;
 }
 
@@ -304,26 +303,18 @@ td { vertical-align: top; }
   width: 90%;
 }
 
-
-
 /*
     Generated Code
 */
 
-.delivery {
-  position: fixed;
-  width: 75%;
-  bottom: 20px;
-  left: 20px;
-}
-
 .code-preview {
+  background-color: #fff;
   border: 1px dotted #aaa;
   font-size: 16px;
   font-family: monospace;
-  min-height: 7.5em;
   padding: 10px;
-  width: 500px;
+  width: 90%;
+  margin: 20px auto;
 }
 
 
@@ -343,12 +334,30 @@ td { vertical-align: top; }
 
   }
 
+  .control {
+    margin: 0 20px 0 0;
+  }
+
+  .delivery {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+  }
+
+  .code-preview {
+    min-height: 7.5em;
+    max-width: 500px;
+    margin: 0;
+  }
+
   .options {
     float: none;
     width: 100%;
+    margin: 0 0 3em 0;
   }
 
-  .preview, .delivery { margin-right: 200px }
+  .preview, .delivery { margin-right: 220px }
 }
 
 /* ==|== non-semantic helper classes ========================================
