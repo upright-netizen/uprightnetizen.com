@@ -66,26 +66,26 @@
          renderProperty();
       });
 
-      color_elem.bind("blur", function (e) {
+      color_elem.on("blur", function (e) {
         color = color_elem.val();
         renderProperty();
       });
 
-      // direction_elem.bind("click", function (e) {
+      // direction_elem.on("click", function (e) {
       //   var corner = direction[$(this).val()];
       //   x = corner.x;
       //   y = corner.y;
       //   renderProperty();
       // });
 
-      direction_elem.bind("change", function (e) {
+      direction_elem.on("change", function (e) {
         var corner = direction[$(this).val()];
         x = corner.x;
         y = corner.y;
         renderProperty();
       });
 
-      fontFamily_elem.bind("change", function (e) {
+      fontFamily_elem.on("change", function (e) {
         fontFamily = fontFamily_elem.val();
         eventSwitch.trigger("updatePreview.text-shadow");
       });
@@ -95,18 +95,18 @@
         eventSwitch.trigger("updatePreview.text-shadow");
       });
 
-      sampleText_elem.bind("blur", function (e) {
+      sampleText_elem.on("blur", function (e) {
         sampleText = sampleText_elem.val();
         eventSwitch.trigger("updatePreview.text-shadow");
       });
 
       /* dumb pub/sub */
       // update both
-      eventSwitch.bind("update.text-shadow", updatePreview);
-      eventSwitch.bind("update.text-shadow", updateCode);
+      eventSwitch.on("update.text-shadow", updatePreview);
+      eventSwitch.on("update.text-shadow", updateCode);
       // update one
-      eventSwitch.bind("updatePreview.text-shadow", updatePreview);
-      eventSwitch.bind("updateCode.text-shadow", updateCode);
+      eventSwitch.on("updatePreview.text-shadow", updatePreview);
+      eventSwitch.on("updateCode.text-shadow", updateCode);
 
       // gonna have to figure this out later.
       x = -1;
