@@ -145,7 +145,7 @@
     };
 
     updateCode = function updateCode () {
-      $("#output").val("text-shadow : " + textShadow);
+      $("#output").html("text-shadow : " + textShadow);
     };
 
     debug = function debug () {
