@@ -212,6 +212,25 @@ td { vertical-align: top; }
    Author: Jared and Nathan Stilwell
    ========================================================================== */
 
+html, body {
+  height : 100%;
+  margin : 0;
+  padding : 0;
+}
+
+.frame {
+  height : 100%;
+  min-height : 100%;
+  width : 100%;
+  min-width : 100%;
+
+  display : table;
+}
+
+.canvas {
+  display : table-cell;
+  vertical-align : middle;
+}
 
 /*
     Preview
@@ -243,27 +262,12 @@ td { vertical-align: top; }
 /*
     Controls
 */
+ .control-panel {
+    position: fixed;
+    top: 0;
 
-.control-panel .title {
-  font-family: Futura;
-  font-size : 20px;
-  text-transform: uppercase;
-  letter-spacing: .2em;
-  margin : .5em 0 .25em;
-  padding : 0;
-  text-align : right;
-  text-shadow: -2px 2px #fff;
-}
-
-.control-panel {
-  color: #444;
-  font-family: Times;
-  font-weight: normal;
-  letter-spacing: 1px;
-  margin: 0 auto;
-  padding: 0px 8.3333333333333% 4em 8.3333333333333%;
-  background: #eee url('../images/stripe.png');
-  background-repeat: repeat-x repeat-y;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .35);
 }
 
 /* Section in the control panel */
@@ -273,10 +277,22 @@ td { vertical-align: top; }
   padding: 0;
 }
 
-.control {
-  padding: 5px 10px;
-  margin: 0 20px 5px 0;
+.shadow-form .control {
+  display: block;
+  float: left;
+  width: 30%;
+  padding: 3% 1%;
+  text-align : center;
 }
+
+.preview-form .control {
+  display: block;
+  float: left;
+  width: 23%;
+  padding: 3% 1%;
+  text-align : center;
+}
+
 
 .control .label {
   font-size: 16px;
@@ -291,19 +307,25 @@ td { vertical-align: top; }
 
 /* controls with text */
 .control .reading {
-  font-family : Futura;
   font-size : 18px;
+  font-family : monospace;
 }
 
 .control .slider {
   width: 100%;
 }
 
-.control .color,
+.control .color {
+  width : 50px;
+}
+
 .control .font-text {
   width: 90%;
 }
 
+.make-it-bold {
+  height : 35px;
+}
 
 
 /*
@@ -312,43 +334,29 @@ td { vertical-align: top; }
 
 .delivery {
   position: fixed;
-  width: 75%;
-  bottom: 20px;
-  left: 20px;
+  width: 100%;
+  bottom: 0;
+  left: 0;
 }
 
 .code-preview {
+  background-color : hsla(0, 50%, 100%, .75);
   border: 1px dotted #aaa;
   font-size: 16px;
   font-family: monospace;
   min-height: 7.5em;
   padding: 10px;
-  width: 500px;
+  width: 100%;
 }
-
 
 .font-text { max-width: 15em }
 
 @media screen and (min-width: 720px) {
-  .control-panel {
-    position: fixed;
-    right: 0;
-    top: 0;
-    width: 200px;
-    padding: 0 .5em 1em 1em;
+ /*
+      @jared - feel free to put any kind of responsive goodness in here
+      if you like.
+  */
 
-    -webkit-border-bottom-left-radius: 20px;
-    -moz-border-radius-bottomleft: 20px;
-    border-bottom-left-radius: 20px;
-
-  }
-
-  .options {
-    float: none;
-    width: 100%;
-  }
-
-  .preview, .delivery { margin-right: 200px }
 }
 
 /* ==|== non-semantic helper classes ========================================
