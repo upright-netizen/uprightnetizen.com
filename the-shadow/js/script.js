@@ -38,7 +38,7 @@
         fontFamily_elem = $('#font-family'),
         fontSize_elem = $('#font-size'),
         sampleText_elem = $('#font-text'),
-
+        boldInput_elem = $('#bold'),
 
         // functions
         init,
@@ -58,6 +58,7 @@
       x = direction[ direction_elem.val() ].x;
       y = direction[ direction_elem.val() ].y;
       fontFamily = fontFamily_elem.val();
+      fontWeight = (boldInput_elem.is(":checked")) ? "bold" : "normal";
 
       /* events */
       depth_elem.on("change", function (e) {
@@ -100,6 +101,11 @@
         eventSwitch.trigger("updatePreview.text-shadow");
       });
 
+      boldInput_elem.on("click", function (e) {
+        fontWeight = (boldInput_elem.is(":checked")) ? "bold" : "normal";
+        eventSwitch.trigger("updatePreview.text-shadow");
+      });
+
       /* dumb pub/sub */
       // update both
       eventSwitch.on("update.text-shadow", updatePreview);
@@ -131,7 +137,8 @@
       $("#preview").css({
         "textShadow" : textShadow,
         "fontFamily" : fontFamily,
-        "fontSize" : fontSize + "px"
+        "fontSize" : fontSize + "px",
+        "fontWeight" : fontWeight
       });
 
       $("#preview").text(sampleText);
