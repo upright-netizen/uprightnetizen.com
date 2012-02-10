@@ -1,3 +1,6 @@
 [submodule "penumbra"]
 	path = penumbra
 	url = git@github.com:upright-netizen/Penumbra.git
+[submodule "tryout"]
+	path = tryout
+	url = https://jared-stilwell@github.com/upright-netizen/tryout.git
