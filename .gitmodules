@@ -1,3 +1,6 @@
 [submodule "penumbra"]
 	path = penumbra
 	url = git@github.com:upright-netizen/Penumbra.git
+[submodule "jquery-renewal"]
+	path = jquery-renewal
+	url = git@github.com:nathanstilwell/jquery-renewal.git
