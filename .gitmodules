@@ -7,3 +7,6 @@
 [submodule "jquery-renewal"]
 	path = jquery-renewal
 	url = git@github.com:nathanstilwell/jquery-renewal.git
+[submodule "gta"]
+	path = gta
+	url = git@github.com:upright-netizen/Gilt-Tech-Academy.git
