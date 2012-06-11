@@ -1,0 +1,86 @@
+/* 
+
+web fonts
+
+font-family: 'Unkempt', cursive;
+font-family: 'Fredericka the Great', cursive;
+font-family: 'Londrina Shadow', cursive;
+
+ */
+
+html,
+body {
+  
+  background : url(../img/cars.png) repeat;
+  color : #444;
+
+}
+
+h1 {
+  font-family: 'Londrina Shadow', sans-serif;
+  font-size : 100px;
+  text-align : center;
+  width : 770px;
+  margin: 0 auto;
+  padding : 100px 0;
+}
+
+.main {
+  width : 960px;
+  margin : 0 auto;
+}
+
+.download {
+  font-family: 'Fredericka the Great', cursive;
+  text-align : center;
+  margin-bottom : 100px;
+  font-size : 75px;
+  padding : 0 300px;
+  line-height: 65px;
+}
+
+.download .link {
+  display: block;
+  color: #3e7cff;
+  text-decoration: none;
+  padding : 10px;
+
+  -webkit-transition : all .5s ease-out;
+   -khtml-transition : all .5s ease-out;
+     -moz-transition : all .5s ease-out;
+      -ms-transition : all .5s ease-out;
+       -o-transition : all .5s ease-out;
+          transition : all .5s ease-out;
+}
+
+.download .link:hover {
+  color : #ff3ecb;
+}
+
+.the-pictures {
+  
+}
+
+.the-pictures .picture {
+  width : 440px;
+  margin : 20px;
+  float: left;
+}
+
+.the-pictures .caption {
+  font-family: 'Unkempt', cursive;
+  /*font-family: 'Fredericka the Great', cursive;*/
+
+
+
+  text-align : center;
+  width: 440px;
+  float: left;
+  font-size: 75px;
+  margin-top: 150px;
+}
+
+.stanley-scene {
+  clear: both;
+  width: 960px;
+}
