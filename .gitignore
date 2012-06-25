@@ -1,4 +1,8 @@
 .DS_STORE
-christmastime.mp3
-christmastime.ogg
-bin/node_modules/
+*.mp3
+*.ogg
+public/blog/*
+public/javascripts/*
+public/stylesheets/*
+public/projects/*
+node_modules/
