@@ -10,3 +10,6 @@
 [submodule "gta"]
 	path = gta
 	url = git@github.com:upright-netizen/Gilt-Tech-Academy.git
+[submodule "halo"]
+	path = halo
+	url = https://github.com/nathanstilwell/halo-4-countdown.git
