@@ -1,0 +1,113 @@
+/* Fonts */
+
+
+@font-face {
+  font-family: 'Dead Saloon';
+  src: url('../fonts/thedeadsaloon-Regular.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/thedeadsaloon-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/thedeadsaloon-Regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/thedeadsaloon-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/thedeadsaloon-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: "Old Western";
+  src: url('../fonts/CM_Old_Western.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/CM_Old_Western.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/CM_Old_Western.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/CM_Old_Western.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/CM_Old_Western.svg#svgFontName') format('svg'); /* Legacy iOS */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Chopin';
+  src: url('../fonts/ChopinScript.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/ChopinScript.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/ChopinScript.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/ChopinScript.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/ChopinScript.svg#svgFontName') format('svg'); /* Legacy iOS */
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'English';
+  src: url('../fonts/English_.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/English_.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/English_.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/English_.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/English_.svg#svgFontName') format('svg'); /* Legacy iOS */
+  font-weight: normal;
+  font-style: normal;
+}
+
+.ospdin { font-family: 'OSPDIN', monospace; }
+.league-gothic { font-family: 'LeagueGothic', monospace; }
+.fjord { font-family: 'fjord', monospace; }
+.inconsolata { font-family: 'Inconsolata', monospace; }
+.dead-saloon { font-family: "Dead Saloon", monospace; }
+.old-western { font-family: "Old Western", monospace; }
+.chopin { font-family: "Chopin", monospace; }
+
+
+/* Slides */
+
+body {
+  font-family : sans-serif;
+}
+
+em {
+  font-family : Georgia;
+}
+
+.slide {
+  min-height: 500px;
+  width: 1200px;
+}
+
+.center {
+  text-align : center;
+}
+
+/* Other */
+
+.intro .ses-intro {
+  font-size: 150px;
+  font-style: italic;
+  line-height: 1;
+}
+
+.slide .living-room.title {
+  font-family: "English";
+  font-size: 180px;
+}
+
+.slide .title {
+  font-family: "Dead Saloon";
+  font-size: 100px;
+  text-shadow: 6px 5px 15px rgba(0, 0, 0, .5);
+}
+
+.slide .middle-title {
+  font-size: 200px;
+  line-height: 1;
+}
+
+.slide .big-title {
+  font-size: 250px;
+  line-height: .5;
+}
+
+.sub-text {
+  font-size: 50px;
+}
+
+.middle {
+  font-size: 50px;
+}
