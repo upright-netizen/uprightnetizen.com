@@ -1,0 +1,312 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+  <title>Core Lab Interactions :: Lesson 1 </title>
+
+  <link rel="stylesheet" href="/stylesheets/normalize.css">
+  <link rel="stylesheet" href="/stylesheets/util/prettify-custom.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <script src="/javascripts/vendor/modernizr-2.0.6.min.js"></script>
+</head>
+<body>
+
+  <section id="presentation" class="presentation">
+
+    <article class="slide"><div class="content">
+      <h1 class="title">Core Lab Interactions</h1>
+      <h2 class="sub-title">I'm your host, Nathan Stilwell.</h2>
+    </div></article>
+
+    <article class="slide"><div class="content">
+      <h1 class="title">About Me</h1>
+    </div></article>
+
+    <article class="slide"><div class="content">
+      <h1 class="title">
+        <a href="../syllabus.pdf" title="Syllabus" target="_blank">Syllabus</a>
+      </h1>
+    </div></article>
+
+    <article class="slide"><div class="content">
+      <h1 class="title">
+        <a href="http://amzn.to/MtOXEY" title="The Book" target="_blank">The Book</a>
+      </h1>
+      <img src="img/book.jpg" width="600" height="340">
+    </div></article>
+
+
+    <aside class="slide">
+      <h1 class="title">How does the Internet work?</h1>
+      <h2 class="sub-title">In very loose terms</h2>
+    </aside>
+
+    <article class="slide">
+      <h1 class="section-title">HTML</h1>
+      <p class="sub-text">Hyper Text Markup Language</p>
+    </article>
+
+    <article class="slide">
+      <h1 class="title">HTML Tag</h1>
+      <p class="sub-text">A term in between two opposing angle brackets</p>
+      <pre class="code"><code>
+    In Pairs                     Or Single
+    &lt;tag&gt; &lt;/tag&gt;                 &lt;tag&gt;
+      </code></pre>
+    </article>
+
+    <article class="slide">
+      <h1 class="title">HTML element</h1>
+      <p>is <em>tag</em> + content</p>
+      <pre class="code"><code>
+    &lt;tag&gt;
+      This is some content inside of a tag
+    &lt;/tag&gt;
+      </code></pre>
+    </article>
+
+    <article class="slide">
+      <h1 class="title no-space">Tag Attribute</h1>
+      <p>Attributes assign a property to a element</p>
+      <pre class="code"><code>
+    &lt;tag attr="value"&gt;
+      Content
+    &lt;/tag&gt;
+      </code></pre>
+    </article>
+
+    <article class="slide">
+      <h2 class="title">Contrived Example</h2>
+      <pre class="code"><code>
+    &lt;dog size="big" color="red"&gt; Clifford &lt;/dog&gt;
+
+    **Please note this is not real HTML
+      </code></pre>
+    </article>
+
+
+    <article class="slide">
+      <h1 class="title">Your basic page</h1>
+      <pre class="code"><code>
+    &lt;!doctype html&gt;
+    &lt;html&gt;
+      &lt;head&gt;
+
+      &lt;/head&gt;
+      &lt;body&gt;
+
+      &lt;/body&gt;
+    &lt;/html&gt;
+      </code></pre>
+    </article>
+
+    <article class="slide">
+      <h1 class="title">doctype</h1>
+      <pre class="code"><code>
+    &lt;!doctype html&gt;
+    <span class="blur">&lt;html&gt;
+      &lt;head&gt;
+
+      &lt;/head&gt;
+      &lt;body&gt;
+
+      &lt;/body&gt;
+    &lt;/html&gt;</span>
+      </code></pre>
+    </article>
+
+    <article class="slide">
+      <h1 class="title no-space">HTML (the tag)</h1>
+      <pre class="code"><code>
+    <span class="blur">&lt;!doctype html&gt;</span>
+    &lt;html&gt; &lt;-- Everything goes in here --&gt;
+      <span class="blur">&lt;head&gt;
+
+      &lt;/head&gt;
+      &lt;body&gt;
+
+      &lt;/body&gt;</span>
+    &lt;/html&gt;
+      </code></pre>
+    </article>
+
+    <article class="slide">
+      <h1 class="title no-space">Head</h1>
+      <pre class="code"><code>
+    <span class="blur">&lt;!doctype html&gt;
+    &lt;html&gt;</span>
+      &lt;head&gt;
+        &lt;!-- This has stuff about your page --&gt;
+      &lt;/head&gt;
+      <span class="blur">&lt;body&gt;
+
+      &lt;/body&gt;
+    &lt;/html&gt;</span>
+      </code></pre>
+    </article>
+
+
+    <article class="slide">
+      <h1 class="title no-space">Body</h1>
+      <pre class="code"><code>
+    <span class="blur">&lt;!doctype html&gt;
+    &lt;html&gt;
+      &lt;head&gt;
+
+      &lt;/head&gt;</span>
+      &lt;body&gt;
+        &lt;!-- This IS your page (the stuff you see) --&gt;
+      &lt;/body&gt;
+    <span class="blur">&lt;/html&gt;</span>
+      </code></pre>
+    </article>
+
+    <article class="slide">
+      <h1 class="title no-space">&lt;Head&gt;</h1>
+      <p class="sub-text">We use the head to provide infomation about our page, and include resources for our page.</p>
+    </article>
+
+
+    <article class="slide">
+      <h1 class="title no-space">&lt;Body&gt;</h1>
+      <p class="sub-text">This where you should put elements that are visible in the browser window.</p>
+    </article>
+
+
+    <article class="slide">
+      <h1 class="title">Structural tags</h1>
+      <ul class="list">
+        <li>p (paragraph)</li>
+        <li>header</li>
+        <li>footer</li>
+        <li>section</li>
+        <li>article</li>
+        <li>div</li>
+      </ul>
+    </article>
+
+    <article class="slide">
+      <h1 class="title">Semantic tags</h1>
+      <ul class="list">
+        <li>h1 - h6 (headings)</li>
+        <li>em (emphasis)</li>
+        <li>strong</li>
+        <li>q (quote)</li>
+        <li>blockquote</li>
+        <li>img (image)</li>
+      </ul>
+    </article>
+
+    <article class="slide"><div class="content">
+      <p class="sub-title">HTML are they "bones" of your page</p>
+    </content></article>
+
+    <article class="slide">
+      <h1 class="section-title">CSS</h1>
+      <p class="sub-text">Cascading Style Sheets</p>
+    </article>
+
+    <article class="slide">
+      <h1 class="title">Selector</h1>
+      <p class="sub-text">specify an element to apply styles to</p>
+      <code class="sub-text">
+        <span class="red">p</span> { color : tomato }
+      </code>
+    </article>
+
+    <article class="slide">
+      <h1 class="title">declaration (or "style")</h1>
+      <p class="sub-text">the thing we want to do to the selected elements, made up of property and value</p>
+      <code class="sub-text">
+        p <span class="red">{ color : tomato }</span>
+      </code>
+    </article>
+
+    <article class="slide">
+      <h1 class="title">Property</h1>
+      <p class="sub-text">the thing I want to change about my elements</p>
+      <code class="sub-text">
+        p {<span class="red">color</span> : tomato }
+      </code>
+    </article>
+
+    <article class="slide">
+      <h1 class="title">Value</h1>
+      <p class="sub-text">What I want to change about my elements</p>
+      <code class="sub-text">
+        p { color : <span class="red">tomato</span>}
+      </code>
+    </article>
+
+    <article class="slide">
+      <h1 class="title">Selectors</h1>
+      <p class="sub-text">targeting your markup</p>
+    </article>
+
+    <article class="slide">
+      <h1 class="title">Type Selector</h1>
+      <p class="sub-text">Use the tag name</p>
+    </article>
+
+    <article class="slide">
+      <pre class="code"><code>
+      h1 {
+        font-size : 100px;
+        font-weight : bold;
+      }
+
+      p {
+        color : #f0f;
+        padding : 15px
+      }
+
+      ul {
+        color : green;
+      }
+      </code></pre>
+    </article>
+
+    <article class="slide">
+      <h1 class="title">Class Selector</h1>
+      <p class="sub-text">Add a class attribute to a tag and select on that.</p>
+    </article>
+
+
+    <article class="slide">
+      <pre class="code"><code>
+    &lt;!-- HTML --&gt;
+    &lt;div class="my-div"&gt; blah blah blah &lt;/div&gt;
+
+    /* CSS */
+    .my-div {
+      font-size : 100px;
+      font-weight : bold;
+    }
+      </code></pre>
+    </article>
+
+
+
+<!-- Consider this : http://www.rvl.io/ -->
+
+
+
+  </section><!-- / .presentation -->
+
+  <script src="/javascripts/vendor/jquery.js"></script>
+  <script src="/javascripts/showandtell.js"></script>
+  <script src="/javascripts/vendor/prettify.js"></script>
+  <script>
+    (function($, global, undefined){
+
+      // see demo for more conifg options
+      showandtell.init({
+        bigSpace : false
+      });
+      prettyPrint();
+
+    }(this.jQuery, this));
+  </script>
+
+</body>
+</html>

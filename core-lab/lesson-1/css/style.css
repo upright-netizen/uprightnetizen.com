@@ -1,0 +1,143 @@
+@font-face {
+  font-family: 'LeagueGothic';
+  src: url('/core-lab/fonts/LeagueGothic-Regular.eot'); /* IE9 Compat Modes */
+  src: url('/core-lab/fonts/LeagueGothic-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/core-lab/fonts/LeagueGothic-Regular.woff') format('woff'), /* Modern Browsers */
+       url('/core-lab/fonts/LeagueGothic-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('/core-lab/fonts/LeagueGothic-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* duh, font face here */
+
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { zoom: 1; }
+
+.slide {
+  display: table;
+  font-size: 50px;
+  height: 700px;
+  margin: 40px auto;
+  text-align: center;
+  text-shadow : 0 0 3px rgba(0, 0, 0, .45);
+  width: 1000px;
+}
+
+.slide .content {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.slide .code {
+  color : #fff;
+  background-color : #222;
+   -webkit-box-shadow: 9px 9px 25px hsla(0, 0%, 0%, .45); /* Saf3.0+, Chrome */
+       -moz-box-shadow: 9px 9px 25px hsla(0, 0%, 0%, .45); /* FF3.5 - 3.6 */
+            box-shadow: 9px 9px 25px hsla(0, 0%, 0%, .45); /* Opera 10.5, IE9, FF4+, Chrome 10+ */
+  border-radius : 8px;
+  font-family : "Andale Mono", monospace;
+  font-size: 24px;
+  padding : 30px;
+  text-align : left;
+}
+
+.slide .prettyprint {
+  font-size : 24px;
+  text-align : left;
+}
+
+/*---------------------------------------*/
+
+body {
+  font-family : sans-serif;
+}
+
+em {
+  font-family : Georgia;
+}
+
+a, a:link, a:visited, a:active {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  -webkit-transition : color .75s ease;
+     -moz-transition : color .75s ease;
+      -ms-transition : color .75s ease;
+       -o-transition : color .75s ease;
+          transition : color .75s ease;
+}
+
+a:hover {
+  color: blue;
+  -webkit-transition : color .75s ease;
+     -moz-transition : color .75s ease;
+      -ms-transition : color .75s ease;
+       -o-transition : color .75s ease;
+          transition : color .75s ease;
+}
+
+.presentation .slide{
+  min-height : 700px;
+  min-width : 700px;
+  width : 85%;
+}
+
+.center {
+  text-align : center;
+}
+
+.presentation .section-title {
+  background-color: black;
+  color: white;
+  font-size: 100px;
+  padding: .25em 0;
+  text-shadow : none;
+}
+
+.presentation .title {
+  color: black;
+  font-family: Sans-serif;
+  font-size: 130px;
+  margin: .5em 0;
+  text-shadow: none;
+}
+
+.presentation .sub-title {
+  font-family: Georgia, serif;
+  font-size: 50px;
+  font-style: italic;
+}
+
+/** Code formatting **/
+
+.blur {
+  color : #888;
+}
+
+/** Misc **/
+
+.letter {
+  font-size : 18px;
+  text-align: left;
+  text-shadow: none;
+}
+
+.red { color : tomato; }
+
+.list {
+  list-style-type: none;
+}
+
+.list li {
+  display: inline-block;
+}
+
+.list li:after {
+  content: ",";
+}
+
+.list li:last-child:after {
+  content: "";
+}

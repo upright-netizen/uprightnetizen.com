@@ -1,0 +1,11 @@
+
+@font-face {
+  font-family: 'LeagueGothic-Regular';
+  src: url('LeagueGothic-Regular.eot'); /* IE9 Compat Modes */
+  src: url('LeagueGothic-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('LeagueGothic-Regular.woff') format('woff'), /* Modern Browsers */
+       url('LeagueGothic-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('LeagueGothic-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+  font-weight: normal;
+  font-style: normal;
+}
