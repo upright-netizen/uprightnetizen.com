@@ -13,3 +13,6 @@
 [submodule "halo"]
 	path = halo
 	url = https://github.com/nathanstilwell/halo-4-countdown.git
+[submodule "core-lab"]
+	path = core-lab
+	url = git@github.com:nathanstilwell/core-lab.git
