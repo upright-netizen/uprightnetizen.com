@@ -1,0 +1,26 @@
+.next-section {
+  text-align: center;
+}
+
+.scroll-to {
+  color: #0097ff;
+  font-family: Futura, sans-serif;
+  font-size: 50px;
+  text-decoration: none;
+
+  -webkit-transition : color .75s ease;
+     -moz-transition : color .75s ease;
+      -ms-transition : color .75s ease;
+       -o-transition : color .75s ease;
+          transition : color .75s ease;
+}
+
+.scroll-to:hover {
+  color: #ff0098;
+
+  -webkit-transition : color .75s ease;
+     -moz-transition : color .75s ease;
+      -ms-transition : color .75s ease;
+       -o-transition : color .75s ease;
+          transition : color .75s ease;
+}

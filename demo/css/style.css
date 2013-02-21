@@ -1,0 +1,25 @@
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { zoom: 1; }
+
+.main {
+  margin: 0 auto;
+  width: 960px;
+}
+
+.page-header {
+  font-family: Futura, sans-serif;
+  font-size : 75px;
+}
+
+.section-header .title {
+  font-size: 65px;
+  text-align: center;
+}
+
+.footer {
+  background-color: black;
+  color: black;
+  height: 300px;
+  margin-top: 200px;
+}
