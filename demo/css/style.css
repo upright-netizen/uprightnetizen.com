@@ -2,19 +2,27 @@
 .clearfix:after { clear: both; }
 .clearfix { zoom: 1; }
 
+html, body {
+  font-size: 24px;
+}
+
 .main {
   margin: 0 auto;
   width: 960px;
+  overflow: hidden;
 }
 
 .page-header {
   font-family: Futura, sans-serif;
-  font-size : 75px;
+  font-size : 55px;
+  padding-top: 50px;
 }
 
 .section-header .title {
   font-size: 65px;
   text-align: center;
+  margin: 0;
+  padding: 2em 0 1.5em;
 }
 
 .footer {

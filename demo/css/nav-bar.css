@@ -1,0 +1,33 @@
+.nav-bar {
+  border-bottom: 2px solid #ddd;
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  z-index: 10;
+}
+
+.nav-bar .nav-items {
+  margin: 0 auto;
+  padding: .5em;
+  width: 780px;
+}
+
+.nav-bar .nav-item {
+  display: inline-block;
+  padding: 0 25px;
+  text-align: center;
+  width: 100px;
+}
+
+.nav-bar .scroll-to {
+  font-size: 25px;
+}
+
+.nav-shadow {
+  box-shadow: 0px 0px 35px rgba(0, 0, 0, .15);
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  margin-left: 16px;
+}

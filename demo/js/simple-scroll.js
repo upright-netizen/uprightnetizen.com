@@ -2,7 +2,7 @@
 
   $(function () {
 
-    $('#main').on('click', '.scroll-to', function (e) {
+    $('body').on('click', '.scroll-to', function (e) {
       var self = $(this);
       var target = self.attr('href');
       var targetScrollTop = $(target).position().top;
