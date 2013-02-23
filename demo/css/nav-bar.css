@@ -12,6 +12,10 @@
   width: 780px;
 }
 
+.nav-bar .here {
+  color: #11f59a;
+}
+
 .nav-bar .nav-item {
   display: inline-block;
   padding: 0 25px;
