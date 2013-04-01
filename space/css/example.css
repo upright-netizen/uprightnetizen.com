@@ -1,0 +1,73 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background: black url(../img/space.jpg) no-repeat center center;
+  background-size: cover;
+  font-size: 10px;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.outer-frame {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+
+.inner-frame {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.title {
+  color: white;
+  font-family: Futura, sans-serif;
+  font-size: 1000%;
+  font-style: italic;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  text-shadow: 5px 5px 5px black;
+  -webkit-transition: font-size .5s ease;
+  -moz-transition: font-size .5s ease;
+  -ms-transition: font-size .5s ease;
+  -o-transition: font-size .5s ease;
+  transition: font-size .5s ease;
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) {
+  .title { font-size: 900%; -webkit-transition: none; }
+}
+@media only screen and (max-width : 320px) {
+  .title { font-size: 600%; -webkit-transition: none; }
+}
+@media only screen and (min-width: 500px) {
+  .title { font-size: 1000%; }
+}
+@media only screen and (min-width: 600px) {
+  .title { font-size: 1200%; }
+}
+@media only screen and (min-width: 700px) {
+  .title { font-size: 1400%; }
+}
+@media only screen and (min-width: 800px) {
+  .title { font-size: 1600%; }
+}
+@media only screen and (min-width: 900px) {
+  .title { font-size: 1800%; }
+}
+@media only screen and (min-width: 1000px) {
+  .title { font-size: 2000%; }
+}
+@media only screen and (min-width: 1100px) {
+  .title { font-size: 2200%; }
+}
+@media only screen and (min-width: 1200px) {
+  .title { font-size: 2500%; }
+}
