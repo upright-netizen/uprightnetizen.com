@@ -1,0 +1,19 @@
+{
+  "name": "upright-netizen",
+  "version": "0.1.0",
+  "authors": [
+    "Nathan Stilwell"
+  ],
+  "description": "Upright Netizen rebrand",
+  "license": "ISC",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "requirejs": "~2.1.14"
+  }
+}

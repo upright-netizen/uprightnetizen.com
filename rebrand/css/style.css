@@ -1,0 +1,80 @@
+body {
+  /*background-color: #d32719;*/
+  /* background-color: #ee261b; */
+  background-color: #ed0c17;
+  font-family: monospace;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  padding: 0 50px;
+}
+
+.title {
+  font-size: 30px;
+}
+
+.logo-frame {
+  align-items: center;
+  display: flex;
+  height: 85vh;
+  justify-content: center;
+  padding; 50px;
+}
+
+.logo-content {
+  align-items: center;
+  flex: 1 100%;
+  text-align: center;
+}
+
+.label {
+  font-size: 20px;
+}
+
+.logo {
+  font-size: 500px;
+  font-weight: normal;
+}
+
+
+.bold {
+  font-weight: bold;
+}
+
+.one {
+  font-family: Futura, sans-serif;
+}
+
+.two {
+  font-family: 'Ostrich Sans', sans-serif;
+}
+
+.three {
+  font-family: 'Ostrich Sans Dashed', sans-serif;
+}
+
+.four {
+  font-family: 'Ostrich Sans Rounded', sans-serif;
+}
+
+.five {
+  font-family: 'Ostrich Sans Inline', sans-serif;
+}
+
+.six {
+  font-family: 'Anke', sans-serif;
+}
+
+.seven {
+  font-family: 'Gauge', sans-serif;
+}
+
+.eight {
+  font-family: 'League Gothic', sans-serif;
+}
+
+.nine {
+  font-family: 'Junction';
+}
