@@ -1,18 +1,20 @@
 body {
   /*background-color: #d32719;*/
   /* background-color: #ee261b; */
-  background-color: #ed0c17;
-  font-family: monospace;
   margin: 0;
   padding: 0;
 }
 
 .header {
-  padding: 0 50px;
+  background-color: black;
+  color: white;
+  padding: 20px;
 }
 
 .title {
+  font-family: 'Futura Medium', sans-serif;
   font-size: 30px;
+  margin: 0;
 }
 
 .logo-frame {
@@ -34,51 +36,43 @@ body {
 }
 
 .logo {
+  font-family: 'Futura Medium', sans-serif;
   font-size: 40vh;
-  font-weight: normal;
-}
-
-
-.bold {
   font-weight: bold;
 }
 
-.one {
-  font-family: 'FuturaBT-Medium', sans-serif;
+.logo .n {
+  font-size: 1.1em;
 }
 
-.ten {
-  font-family: 'Futura Medium', sans-serif;
+.red {
+  background-color: #CC2900;
 }
 
-.two {
-  font-family: 'Ostrich Sans', sans-serif;
+.blue {
+  background-color: #005FCC;
 }
 
-.three {
-  font-family: 'Ostrich Sans Dashed', sans-serif;
+.green {
+  background-color: #75b837;
 }
 
-.four {
-  font-family: 'Ostrich Sans Rounded', sans-serif;
+.pink {
+  background-color: #ed0073;
 }
 
-.five {
-  font-family: 'Ostrich Sans Inline', sans-serif;
+.aqua {
+  background-color: #10b9c3;
 }
 
-.six {
-  font-family: 'Anke', sans-serif;
+.yellow {
+  background-color: #debd02;
 }
 
-.seven {
-  font-family: 'Gauge', sans-serif;
+.orange {
+  background-color: #f25b14;
 }
 
-.eight {
-  font-family: 'League Gothic', sans-serif;
-}
-
-.nine {
-  font-family: 'Junction';
+.purple {
+  background-color: #a866a6;
 }

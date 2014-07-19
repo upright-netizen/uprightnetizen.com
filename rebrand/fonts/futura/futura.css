@@ -1,36 +1,10 @@
-/**
- * @license
- * MyFonts Webfont Build ID 2848400, 2014-07-18T20:19:57-0400
- *
- * The fonts listed in this notice are subject to the End User License
- * Agreement(s) entered into by the website owner. All other parties are
- * explicitly restricted from using the Licensed Webfonts(s).
- *
- * You may obtain a valid license at the URLs below.
- *
- * Webfont: Futura Medium by Bitstream
- * URL: http://www.myfonts.com/fonts/bitstream/futura/medium/
- * Copyright: Copyright 1990-2003 Bitstream Inc. All rights reserved.
- * Licensed pageviews: 10,000
- *
- *
- * License: http://www.myfonts.com/viewlicense?type=web&buildid=2848400
- *
- * © 2014 MyFonts Inc
-*/
-
-
-/* @import must be at top of file, otherwise CSS will not work */
-/*@import url("//hello.myfonts.net/count/2b7690");*/
-
-
 @font-face {
-  font-family: 'FuturaBT-Medium';
-  src: url('2B7690_0_0.eot');
-  src: url('2B7690_0_0.eot?#iefix') format('embedded-opentype'),
-       url('2B7690_0_0.woff') format('woff'),
-       url('2B7690_0_0.ttf') format('truetype'),
-       url('2B7690_0_0.svg#wf') format('svg');
-  font-weight: normal;
-  font-style: normal;
+    font-family: 'Futura Medium';
+    src: url('futura-medium-webfont.eot');
+    src: url('futura-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('futura-medium-webfont.woff') format('woff'),
+         url('futura-medium-webfont.ttf') format('truetype'),
+         url('futura-medium-webfont.svg#futuramedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
