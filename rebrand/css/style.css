@@ -18,7 +18,7 @@ body {
 .logo-frame {
   align-items: center;
   display: flex;
-  height: 85vh;
+  height: 100vh;
   justify-content: center;
   padding; 50px;
 }
@@ -34,7 +34,7 @@ body {
 }
 
 .logo {
-  font-size: 500px;
+  font-size: 40vh;
   font-weight: normal;
 }
 
@@ -44,7 +44,11 @@ body {
 }
 
 .one {
-  font-family: Futura, sans-serif;
+  font-family: 'FuturaBT-Medium', sans-serif;
+}
+
+.ten {
+  font-family: 'Futura Medium', sans-serif;
 }
 
 .two {

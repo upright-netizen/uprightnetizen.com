@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Futura Medium';
+    src: url('futura-medium-webfont.eot');
+    src: url('futura-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('futura-medium-webfont.woff') format('woff'),
+         url('futura-medium-webfont.ttf') format('truetype'),
+         url('futura-medium-webfont.svg#futuramedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
