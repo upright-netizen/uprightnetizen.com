@@ -6,48 +6,37 @@
     <link rel="stylesheet" href="fonts/futura/futura.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
-  <body>
+  <body class="color-bg-red">
 
     <header class="header">
+      <div id="preferences" class="preferences">
+        <img id="gear" class="gear" src="img/gear.svg" alt="preferences">
+        <section class="color-panel">
+          <ul id="colors" class="colors">
+            <li class="color color-bg-red" data-color-setting="red">red</li>
+            <li class="color color-bg-blue" data-color-setting="blue">blue</li>
+            <li class="color color-bg-green" data-color-setting="green">green</li>
+            <li class="color color-bg-pink" data-color-setting="pink">pink</li>
+            <li class="color color-bg-aqua" data-color-setting="aqua">aqua</li>
+            <li class="color color-bg-yellow" data-color-setting="yellow">yellow</li>
+            <li class="color color-bg-orange" data-color-setting="orange">orange</li>
+            <li class="color color-bg-purple" data-color-setting="purple">purple</li>
+          </ul>
+        </section>
+      </div>
       <h1 class="title">Upright Netizen</h1>
     </header>
 
     <main id="main" class="main">
-
-
       <div class="logo-frame red"><div class="logo-content">
         <div class="logo">U<span class="n">N</span></div>
       </div></div>
+    </main>
 
-      <div class="logo-frame blue"><div class="logo-content">
-        <div class="logo">U<span class="n">N</span></div>
-      </div></div>
+    <footer class="footer">
 
-      <div class="logo-frame green"><div class="logo-content">
-        <div class="logo">U<span class="n">N</span></div>
-      </div></div>
+    </footer>
 
-      <div class="logo-frame pink"><div class="logo-content">
-        <div class="logo">U<span class="n">N</span></div>
-      </div></div>
-
-      <div class="logo-frame aqua"><div class="logo-content">
-        <div class="logo">U<span class="n">N</span></div>
-      </div></div>
-
-      <div class="logo-frame yellow"><div class="logo-content">
-        <div class="logo">U<span class="n">N</span></div>
-      </div></div>
-
-      <div class="logo-frame orange"><div class="logo-content">
-        <div class="logo">U<span class="n">N</span></div>
-      </div></div>
-
-      <div class="logo-frame purple"><div class="logo-content">
-        <div class="logo">U<span class="n">N</span></div>
-      </div></div>
-
-
-
+    <script data-main="app/config" src="/bower_components/requirejs/require.js"></script>
   </body>
 </html>
