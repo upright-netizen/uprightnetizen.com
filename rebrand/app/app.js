@@ -1,8 +1,9 @@
 /*jshint esnext: true, laxcomma: true, eqeqeq: true, bitwise: true, curly: true, latedef: true, strict: true, plusplus: true*/
 /*global define: true */
 define([
-  'jquery'
-], function ($) {
+  'jquery',
+  'cookie-monster'
+], function ($, cookie) {
   'use strict';
 
 

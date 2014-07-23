@@ -12,7 +12,8 @@ requirejs.config({
     bean: '../bower_components/bean/bean',
     bonzo: '../bower_components/bonzo/bonzo',
     qwery: '../bower_components/qwery/qwery',
-    jquery: '../bower_components/jquery/dist/jquery'
+    jquery: '../bower_components/jquery/dist/jquery',
+    'cookie-monster': '../bower_components/cookie-monster/dist/cookie-monster'
   },
   packages: [
 

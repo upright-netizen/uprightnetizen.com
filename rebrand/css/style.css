@@ -28,11 +28,15 @@ body {
   .gear {
     cursor: pointer;
     width: 100%;
+    -webkit-transition: -webkit-transform .5s ease;
     -webkit-transition: transform .5s ease;
+    transition: -wekkit-transform .5s ease;
     transition: transform .5s ease;
   }
 
   .show .gear {
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
     transform: rotate(180deg);
   }
 
