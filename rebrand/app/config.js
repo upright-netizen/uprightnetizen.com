@@ -8,12 +8,9 @@ requirejs.config({
   },
   paths: {
     src: '../js',
-    requirejs: '../bower_components/requirejs/require',
-    bean: '../bower_components/bean/bean',
-    bonzo: '../bower_components/bonzo/bonzo',
-    qwery: '../bower_components/qwery/qwery',
     jquery: '../bower_components/jquery/dist/jquery',
-    'cookie-monster': '../bower_components/cookie-monster/dist/cookie-monster'
+    requirejs: '../bower_components/requirejs/require',
+    cookies: '../bower_components/Cookies/src/cookies'
   },
   packages: [
 

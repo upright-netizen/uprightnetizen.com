@@ -121,6 +121,16 @@ body {
   font-size: 1.1em;
 }
 
+/*
+    For changing the background color
+ */
+body {
+  background-color: black;
+  -webkit-transition: background-color 0.35s ease;
+  -o-transition: background-color 0.35s ease;
+  transition: background-color 0.35s ease;
+}
+
 .color-bg-red {
   background-color: #CC2900;
 }
